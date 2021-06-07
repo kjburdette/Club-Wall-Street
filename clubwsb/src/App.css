@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+
+.about-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* .about-image {
+  height: 200px;
+  width: 200px;
+} */
