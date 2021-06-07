@@ -5,18 +5,13 @@ import About from './components/About';
 import SignUp from './components/SignUp';
 import Error from './components/Error';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/signup">Sign Up</Link>
-          </nav>
-        </div>
+        <Nav/>
         <Switch>
           <Route exact path="/">
             <Home />
