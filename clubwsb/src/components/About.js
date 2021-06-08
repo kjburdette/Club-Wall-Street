@@ -3,6 +3,8 @@ import world from '../assets/world.png';
 import StockFloor from '../assets/StockFloor.png';
 import wallet from '../assets/wallet.png';
 
+
+
 export default function About() {
     return (
         <div className="about-container">
@@ -11,7 +13,7 @@ export default function About() {
             </div>
             <div>
                 <h2>What's the Game About?</h2>
-                <p>Welcome to Club Wall Street! A free to play mobile game where you explore the virtual world of investing. Hang out with friends, explore the world, and earn REAL crypto just for playing the game!</p>
+                <p>Welcome to Club Wall Street! A free to play mobile game where you explore the virtual world of investing. Hang out with friends, play mini-games, and earn REAL crypto just for playing the game!</p>
             </div>
             <div>
                 <h2>View Stocks in REAL Time!</h2>

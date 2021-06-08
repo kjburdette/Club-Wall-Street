@@ -1,13 +1,86 @@
 .App {
+  background-color: bisque;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Zen Dots", cursive;
+}
+
+body {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-container {
+  background: url("./assets/logo.png") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-div {
+  background-color: blue;
+  border-radius: 2rem;
+  width: 70vw;
+}
+
+.footer-container {
+  background-color: #444444;
+  color: #b1b1b1;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
-.about-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+i {
+  padding: 10px;
 }
 
-/* .about-image {
-  height: 200px;
-  width: 200px;
-} */
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+.nav-container {
+  background-color: gray;
+  height: 3rem;
+  text-align: center;
+}
+
+nav {
+  padding: 1rem;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.form-container {
+  display: grid;
+  place-items: center;
+  height: 75%;
+}
+
+.form-inner-container {
+  background-color: teal;
+  text-align: center;
+  padding: 2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+  outline: none;
+}
