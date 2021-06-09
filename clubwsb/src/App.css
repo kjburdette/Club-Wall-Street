@@ -97,6 +97,9 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 0 0.5rem 0.5rem 0rem;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
 }
 
 .about-card2 {
@@ -104,16 +107,26 @@ body {
   flex-direction: row-reverse;
   border: solid 0.3rem black;
   border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
 }
 
-.about-text {
+.about-text-2 {
   text-align: center;
   padding: 20px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .image-1 {
   border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.image-2 {
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .group-1 {

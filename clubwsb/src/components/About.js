@@ -21,10 +21,10 @@ export default function About() {
             </div>
             <div className="group-2">
                 <div className="about-card2">
-                    <div className="about-image">
-                        <img src={stockfloor} alt="" height="100%" width="100%"/>
+                    <div className="about-image-2">
+                        <img src={stockfloor} className="image-2" alt="" height="100%" width="100%"/>
                     </div>
-                    <div className="about-text">
+                    <div className="about-text-2">
                         <h2>View Stocks in REAL Time!</h2>
                         <p>Walk along the trade floor, check your favorite stocks, and get price updates live!</p>
                     </div>
