@@ -15,19 +15,22 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+            <Footer />
           </Route>
           <Route exact path="/about">
             <About />
+            <Footer />
           </Route>
           <Route exact path="/signup">
             <SignUp />
+            <Footer />
           </Route>
           <Route path="*">
             <Error/>
           </Route>
         </Switch>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

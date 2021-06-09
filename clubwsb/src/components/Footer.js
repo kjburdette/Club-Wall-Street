@@ -9,8 +9,12 @@ export default function Footer() {
             <a href="https://www.facebook.com" alt="">
                 <i class="fab fa-facebook"></i>
             </a>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
+            <a href="https://www.instagram.com" alt="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" alt="">
+                <i class="fab fa-twitter"></i>
+            </a>
         </div>
     )
 }
