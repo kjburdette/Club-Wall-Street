@@ -20,7 +20,6 @@ export default function SignUp() {
 
     const [totalUsers, setTotalUsers] = useState("");
 
-    console.log(form)
     useEffect(() => {
         getUsers()
     }, [totalUsers])
