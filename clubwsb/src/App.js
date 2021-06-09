@@ -27,6 +27,7 @@ function App() {
           </Route>
           <Route path="*">
             <Error/>
+            <Footer />
           </Route>
         </Switch>
       </Router>

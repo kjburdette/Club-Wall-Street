@@ -35,18 +35,18 @@ export default function SignUp() {
     return (
         <div className="form-container">
             <div className="form-inner-container">
-                <h1>Sign Up For Alpha</h1>
+                <h1>Sign Up For Pre-Alpha</h1>
                 <form onSubmit={ (e) => sendToSupabase(e, formData)}>
                     <p>First Name:</p>
-                    <input onChange = {(e) => {setFirstName(dispatch, e.target.value)}} type="text" className="user-input"/>
+                    <input onChange = {(e) => {setFirstName(dispatch, e.target.value)}} type="text" required className="user-input"/>
                     <p>Last Name:</p>
-                    <input onChange = {(e) => {setLastName(dispatch, e.target.value)}} type="text" className="user-input"/>
+                    <input onChange = {(e) => {setLastName(dispatch, e.target.value)}} type="text" required className="user-input"/>
                     <p>Email:</p>
-                    <input onChange = {(e) => {setEmail(dispatch, e.target.value)}} type="text" className="user-input"/>
+                    <input onChange = {(e) => {setEmail(dispatch, e.target.value)}} type="email" required className="user-input"/>
                     <p>Tell us why you're excited to play Club Wall Street:</p>
                     <textarea onChange = {(e) => {setDescription(dispatch, e.target.value)}} className="user-input"/>
                     <div>
-                        <button type="submit">Sign Up</button>
+                        <button type="submit" className="form-button">Sign Up</button>
                     </div>
                 </form>
 

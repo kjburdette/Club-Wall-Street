@@ -11,7 +11,7 @@ export default function About() {
             <div className="group-1">
                 <div className="about-card">
                     <div className="about-image">
-                        <img src={world} alt="" height="100%" width="100%"/>
+                        <img className="image-1" src={world} alt="" height="100%" width="100%"/>
                     </div>
                     <div className="about-text">
                         <h2>What's the Game About?</h2>
@@ -33,7 +33,7 @@ export default function About() {
             <div className="group-1">
                 <div className="about-card">
                     <div className="about-image">
-                        <img src={wallet} alt="" height="100%" width="100%"/>
+                        <img src={wallet} className="image-1" alt="" height="100%" width="100%"/>
                     </div>
                     <div className="about-text">
                         <h2>Earn Crypto Just for Playing!</h2>
