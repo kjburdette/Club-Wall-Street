@@ -197,6 +197,7 @@ nav {
 }
 
 .form-container {
+  background-color: rgba(36, 76, 124, 255);
   display: grid;
   place-items: center;
   height: 78.8vh;
@@ -237,15 +238,111 @@ input {
 }
 
 .error-image {
-  height: 45%;
+  height: 52%;
   width: 45%;
 }
 
+/* Tablet Media Query */
+
 @media (max-width: 768px) {
+  /* About Page Tablet */
   .about-card {
     flex-direction: column;
   }
   .about-text {
-    width: 93%;
+    width: 91%;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  .group-1 {
+    margin-left: 20%;
+  }
+  .image-1 {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .about-card2 {
+    flex-direction: column;
+  }
+  .group-2 {
+    margin-right: 20%;
+  }
+  .image-2 {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .about-text-2 {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+  /* Home Page Tablet */
+  .home-container {
+    background-size: cover;
+  }
+  .landing-date {
+    font-size: 3rem;
+  }
+  .landing-div {
+    margin-bottom: 15%;
+  }
+  .landing-button {
+    margin-left: 6%;
+  }
+
+  /* Sign Up Page Tablet */
+  .form-container {
+    overflow: inherit;
+    height: 100vh;
+  }
+
+  /* Error Page */
+  .error-image {
+    width: 70%;
+  }
+}
+
+/* Mobile Media Query */
+@media (max-width: 425px) {
+  /* Home Page */
+  .home-container {
+    background-size: 135%;
+  }
+
+  .landing-div {
+    margin-bottom: 25%;
+    width: 45%;
+  }
+
+  .landing-date {
+    font-size: 2.5rem;
+    margin-left: 7%;
+  }
+  .landing-button {
+    font-size: 12px;
+  }
+
+  /* About Page */
+  .group-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .about-text {
+    width: 89%;
+  }
+
+  .group-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  /* Sign Up Page */
+
+  .form-inner-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
   }
 }
