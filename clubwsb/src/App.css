@@ -29,7 +29,7 @@ body {
   text-align: center;
   position: relative;
   width: 25%;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   padding-left: 1.5%;
 }
 
@@ -209,14 +209,14 @@ nav {
   background-color: rgba(36, 76, 124, 255);
   display: grid;
   place-items: center;
-  height: 78.8vh;
+  height: 100vh;
   overflow: hidden;
 }
 
 .form-inner-container {
   background-color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 0.6rem 2rem;
   border: solid 0.3rem black;
   border-radius: 0.5rem;
 }

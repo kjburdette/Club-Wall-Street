@@ -24,7 +24,7 @@ export default function About() {
                     </div>
                     <div className="about-text-2">
                         <h2>View Stocks in REAL Time!</h2>
-                        <p>Walk along the trade floor, check your favorite stocks, and get price updates live!</p>
+                        <p>Get the NYSE experience. Walk along the trade floor, check your favorite stocks, and get price updates live!</p>
                     </div>
                 </div>
             </div>
