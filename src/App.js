@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Nav/>
         <Switch>
-          <Route exact path="/Club-Wall-Street">
+          <Route exact path="/">
             <Home />
             <Footer />
           </Route>
