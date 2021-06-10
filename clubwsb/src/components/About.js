@@ -3,8 +3,6 @@ import world from '../assets/world.png';
 import stockfloor from '../assets/stockfloor.png';
 import wallet from '../assets/wallet.png';
 
-
-
 export default function About() {
     return (
         <div className="about-container">

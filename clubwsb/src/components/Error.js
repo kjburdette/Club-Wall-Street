@@ -1,7 +1,6 @@
 import React from 'react'
 import cwscharacter from '../assets/cwscharacter.png';
 
-
 export default function Error() {
     return (
         <div className="error-container">
