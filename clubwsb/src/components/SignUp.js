@@ -49,7 +49,7 @@ export default function SignUp() {
                     </div>
                 </form>
 
-                <p>We have {totalUsers} ready to play!</p>
+                <p>We have <span>{totalUsers}</span> players signed up!</p>
             </div>
         </div>
     )
