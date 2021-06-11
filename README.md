@@ -12,7 +12,7 @@ Club Wall Street is an idea for a game that I'd like to code in the future. Thin
 
 Deployed on: https://club-wall-street.netlify.app/
 
-Link to medium article: 
+Link to medium article: https://kjburdette2015.medium.com/club-wall-street-a-react-app-5d6854f2b6eb
 
 # Color Scheme
 
