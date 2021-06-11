@@ -7,6 +7,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 export const sendToSupabase = async (e, formData) => {
     e.preventDefault()
+    alert("Thanks for signing up to test Club Wall Street! Make sure to follow our social media to keep track of updates.")
     const { data, error } = await supabase
   .from('SignUpForm')
   .insert([
